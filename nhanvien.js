@@ -1,7 +1,8 @@
-function NhanVien(_tkNV,_tenNV,_email,_chucvuNV,_ngaylam,_luongCB,_giolam ){
+function NhanVien(_tkNV,_tenNV,_email,_matkhau,_chucvuNV,_ngaylam,_luongCB,_giolam ){
     this.tkNV=_tkNV;
     this.tenNV=_tenNV;
     this.email=_email;
+    this.matkhau=_matkhau;
     this.chucvuNV=_chucvuNV;
     this.ngaylam=_ngaylam;
     this.luongcb=_luongCB;
@@ -31,6 +32,8 @@ function NhanVien(_tkNV,_tenNV,_email,_chucvuNV,_ngaylam,_luongCB,_giolam ){
     // else{
     //     return"nhân viên trung bình";
     // }
+    return this.loaiNV;
     }
+    
 
 }
